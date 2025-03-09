@@ -1,0 +1,52 @@
+body{margin:0px !important}
+.main-container{height: 89.9vh;width: 100%;display: flex;background-color: #7e93a6;}
+.rightbar{height: 89.9vh;width: 95%;padding: 2vh;background-color:#f1f1f1;border-radius: 10px 0 0 0;}
+.filter-div{height:86vh;border-radius:10px 0 0 10px; background-color:white;}
+.veh-div{height:86vh;overflow-y: auto;display: flex;}
+.veh-container{height: 270px;background-color: white;margin-bottom: 30px; border-radius: 10px; box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.3);}
+.top-div{padding:10px 20px 0 20px}
+.last-div{height: 88vh; background-color: white;height: 86vh;border-radius: 10px 0 0 10px;padding: 10px;}
+.veh-div::-webkit-scrollbar {display: none;}
+.available-container{background-color: #beffdde6;width: max-content;color: #1e811e;font-size: 13px;font-weight: 700;padding: 5px 10px;border-radius: 10px;font-family: cursive;}
+.image-div{display: flex;justify-content: end;}
+.veh-spec{display: flex;justify-content: space-around;}
+.veh-spec img{height: 25px;}
+.spec-div{display: flex;gap: 5px;font-size: 14px;font-weight: 600;color: #658a9d;font-family: cursive;}
+.line{height: 3px;background-color: #cbe0ebc2}
+.status-div{display:flex;justify-content: space-between;}
+.bottom-div{display: flex;justify-content: space-between;padding: 0 10px;font-family: cursive;margin-top: 5px;}
+.heart {width: 40px;height: 25px;fill: none;stroke: red;stroke-width: 2;cursor: pointer;transition: fill 0.3s ease-in-out; }
+.filled {fill: red;}
+.booking_vehicle{height: 370px;background-color: #d9dcdf;border-radius: 10px;    background: linear-gradient(45deg, #d0e6ff, transparent);}
+.rentamount-div{height: 40px;margin-top: 10px;background-color: #007efc;border-radius: 0 0 10px 10px;    text-align: center; font-size: 16px;color: white;display: flex; align-items: center;justify-content: center;}  
+.vehicle_spec{height: 90px;}
+.search_div{height: 20px;}
+.vehicle_name{margin-left:20px;font-size: 20px;font-weight: 500;font-family: cursive;padding-top: 5px;}
+.veh-available{background-color: #e4f1ff;height: 225px;margin-bottom: 10px; border-radius: 10px;padding: 10px;    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.3);}
+.veh-available h6{text-align: center;}
+.labels{position: relative;top: 10px;font-size: 13px; font-weight: 600;}
+.check-avb{display:flex;justify-content:center;margin-top:20px;}
+.check-but{border: 1px solid #007efc;border-color:#007efc;text-align:center;background:#007efc;color:white;font-size:13px;width:200px;border-radius:5px;}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    color: #555;
+}
+select, input[type="date"], input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

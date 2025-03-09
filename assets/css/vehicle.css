@@ -1,0 +1,103 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Form container styling */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #18066e69;
+    font-size: 1rem;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group select {
+    width: 67%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.form-group input[type="text"]:focus, 
+.form-group select:focus {
+    border-color: #18066e69;
+    outline: none;
+}
+
+/* Submit button styling */
+.form-group input[type="submit"] {
+    background-color: #18066e69;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 13%;
+    transition: background-color 0.3s;
+    margin-left:80%;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #18066e69;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    .form-container {
+        padding: 20px;
+        
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .form-group input[type="submit"] {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+

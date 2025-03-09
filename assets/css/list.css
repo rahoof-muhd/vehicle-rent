@@ -1,0 +1,72 @@
+/* Overall body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Header style */
+h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Header row color */
+table th {
+    background-color: #003366;
+    color: white;
+}
+
+/* Alternate row colors */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Button styling */
+.block-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+.block-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer style */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #003366;
+}

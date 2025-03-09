@@ -1,0 +1,88 @@
+/* Global styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Table container */
+.table-container {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 1086px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366; /* Blue Color */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table header styling */
+th {
+    background-color:#003366; /* Blue color */
+    color: white;
+    font-weight: bold;
+}
+
+/* Table row styling */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button styling for Edit and Delete */
+button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+/* Edit button styling */
+.edit-btn {
+    background-color: #007BFF; /* Blue */
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
+
+/* Delete button styling */
+.delete-btn {
+    background-color: #ff0000db; /* Red */
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #cc4d39; /* Darker Red */
+}
